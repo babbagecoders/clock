@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel= “manifest” href= “manifest.json” />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <section class="container">
+            <div class="imgdiv">
+                <img class="img" src="/images/clock.png" style="color: aliceblue;"/>
+            </div>
+            <div id="clock" class="clock"></div>
+            <div class="setTime">
+                <select class="padding" id="hours"></select>
+                <select class="padding" id="minutes"></select>
+                <select class="padding" id="seconds"></select>
+                <select class="padding" id="ampm">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+            <div class="controls">
+                <button id="snooze" class="hide">Snooze</button>
+                <button id="startstop">Set alarm</button>
+            </div>
+        </section>
+        <script src="/js/script.js"></script>
+    </body>
+</html>
